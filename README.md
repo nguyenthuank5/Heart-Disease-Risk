@@ -1,6 +1,6 @@
-# ❤️ Heart Disease Prediction – Data Science Project
+#  Heart Disease Prediction – Data Science Project
 
-## 📌 Giới thiệu
+##  Giới thiệu
 Dự án này xây dựng mô hình **Machine Learning** nhằm dự đoán nguy cơ mắc **bệnh tim** dựa trên các yếu tố sức khỏe và lối sống như tuổi tác, BMI, hút thuốc, tiểu đường, tập thể dục,…
 
 Dự án được thực hiện theo **quy trình Data Science chuẩn**, phù hợp cho:
@@ -10,7 +10,7 @@ Dự án được thực hiện theo **quy trình Data Science chuẩn**, phù h
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - File: `heart.csv`
 - Biến mục tiêu: **Heart_Disease**
   - `1`: Có bệnh tim
@@ -27,14 +27,14 @@ Dự án được thực hiện theo **quy trình Data Science chuẩn**, phù h
 
 ---
 
-## 🎯 Mục tiêu
+##  Mục tiêu
 - Giải bài toán **phân lớp nhị phân**
 - Dự đoán khả năng mắc bệnh tim
 - Phân tích các yếu tố ảnh hưởng đến bệnh tim
 
 ---
 
-## 🔎 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 ### Phân phối biến mục tiêu
 - Dữ liệu có phân bố tương đối cân bằng giữa hai lớp
@@ -46,7 +46,7 @@ Dự án được thực hiện theo **quy trình Data Science chuẩn**, phù h
 
 ---
 
-## ⚙️ Tiền xử lý dữ liệu
+##  Tiền xử lý dữ liệu
 
 - One-Hot Encoding cho biến phân loại (`get_dummies`)
 - Chuẩn hóa dữ liệu bằng `StandardScaler`
@@ -55,7 +55,7 @@ Dự án được thực hiện theo **quy trình Data Science chuẩn**, phù h
 
 ---
 
-## 🤖 Mô hình sử dụng
+##  Mô hình sử dụng
 
 ### Logistic Regression
 - Mô hình baseline
@@ -70,7 +70,7 @@ Dự án được thực hiện theo **quy trình Data Science chuẩn**, phù h
 
 ---
 
-## 📊 Kết quả & Phân tích Output
+##  Kết quả & Phân tích Output
 
 ### Accuracy
 - Random Forest đạt độ chính xác cao hơn Logistic Regression
@@ -88,7 +88,7 @@ Dự án được thực hiện theo **quy trình Data Science chuẩn**, phù h
 
 ---
 
-## ⭐ Feature Importance (Random Forest)
+##  Feature Importance (Random Forest)
 
 Các yếu tố quan trọng nhất:
 1. Age_Category
@@ -98,18 +98,18 @@ Các yếu tố quan trọng nhất:
 5. General_Health
 6. Exercise
 
-👉 Kết quả phù hợp với kiến thức y khoa thực tế.
+ Kết quả phù hợp với kiến thức y khoa thực tế.
 
 ---
 
-## 📌 Kết luận
+##  Kết luận
 - Random Forest là mô hình phù hợp nhất
 - Mô hình dự đoán hiệu quả nguy cơ bệnh tim
 - Có thể ứng dụng cho phân tích sức khỏe cộng đồng
 
 ---
 
-## 🚀 Hướng phát triển
+##  Hướng phát triển
 - Hyperparameter Tuning (GridSearchCV)
 - Cross Validation
 - Xử lý mất cân bằng dữ liệu (SMOTE)
@@ -118,7 +118,7 @@ Các yếu tố quan trọng nhất:
 
 ---
 
-## 👨‍💻 Tác giả
+##  Tác giả
 **Nguyễn Quốc Thuận**  
-🎓 Data Science Student  
-📌 Quan tâm: Machine Learning, Analytics
+ Data Science Student  
+ Quan tâm: Machine Learning, Analytics
